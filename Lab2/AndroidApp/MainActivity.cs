@@ -20,8 +20,8 @@ namespace AndroidApp
         private async void Validate()
         {
             ServiceClient serviceClient = new ServiceClient();
-            string studentEmail = "israel.perez@cencel.com.mx";
-            string password = "Isra-mx87";
+            string studentEmail = "";
+            string password = "";
 
             string myDevice = Android.Provider.Settings.Secure.GetString(
                 ContentResolver, Android.Provider.Settings.Secure.AndroidId);
