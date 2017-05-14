@@ -61,8 +61,8 @@ namespace PhoneApp
         {
             // enviando evidencia
             var serviceClient = new SALLab05.ServiceClient();
-            string email = "israel.perez@cencel.com.mx";
-            string password = "Isra-mx87";
+            string email = "";
+            string password = "";
             string myDevice = Android.Provider.Settings.Secure.GetString(ContentResolver,
                 Android.Provider.Settings.Secure.AndroidId
                 );

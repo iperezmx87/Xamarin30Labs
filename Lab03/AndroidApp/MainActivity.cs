@@ -25,8 +25,8 @@ namespace AndroidApp
         private async void Validate()
         {
             var serviceClient = new SALLab03.ServiceClient();
-            string email = "israel.perez@cencel.com.mx";
-            string password = "Isra-mx87";
+            string email = "";
+            string password = "";
             string myDevice = Android.Provider.Settings.Secure.GetString(ContentResolver,
                 Android.Provider.Settings.Secure.AndroidId
                 );

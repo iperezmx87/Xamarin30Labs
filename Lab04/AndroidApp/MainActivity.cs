@@ -19,8 +19,8 @@ namespace AndroidApp
             validator.device = Android.Provider.Settings.Secure.GetString(ContentResolver,
                 Android.Provider.Settings.Secure.AndroidId
                 );
-            validator.email = "israel.perez@cencel.com.mx";
-            validator.password = "Isra-mx87";
+            validator.email = "";
+            validator.password = "";
 
             validator.Validate();
         }
