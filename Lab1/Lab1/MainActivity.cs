@@ -35,7 +35,7 @@ namespace Lab1
             textViewDev.Text = "Insertar tu nombre";
             string myDevice = Android.Provider.Settings.Secure.GetString(ContentResolver, Android.Provider.Settings.Secure.AndroidId);
             ServiceHelper helper = new ServiceHelper();
-            await helper.InsertarEntidad("neomatrixisra25@hotmail.com", "lab1", myDevice);
+            await helper.InsertarEntidad("", "lab1", myDevice);
             button.Text = "Gracias por completar el Lab1";
         }
     }
