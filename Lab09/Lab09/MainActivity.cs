@@ -23,7 +23,7 @@ namespace Lab09
             {
                 SALLab09.ServiceClient client = new SALLab09.ServiceClient();
 
-                SALLab09.ResultInfo result = await client.ValidateAsync("israel.perez@cencel.com.mx", "Isra-mx87",
+                SALLab09.ResultInfo result = await client.ValidateAsync("", "",
                     Android.Provider.Settings.Secure.GetString(ContentResolver,
                 Android.Provider.Settings.Secure.AndroidId));
 
