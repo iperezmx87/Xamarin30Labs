@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!--<string name="ApplicationName">Android Localization</string>
+  <string name="ButtonText">Hello World, Click Me!</string>
+  <string name="ContentHeader">Course Content (spanish)</string>
+  <plurals name="numberOfClicks">
+    <item quantity="one">there is %d Clic.</item>
+    <item quantity="other">There are %d Clics.</item>
+  </plurals>-->
+
+  <string name="ApplicationName">Android Localization</string>
+  <string name="mailLabel">Email:</string>
+  <string name="passwordLabel">Password:</string>
+  <string name="validarActividad">Validate</string>
+</resources>
